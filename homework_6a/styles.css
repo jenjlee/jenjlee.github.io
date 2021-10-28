@@ -457,6 +457,7 @@ ul {
     border-radius: 10px;
     text-align: center;
     font-size:20px;
+    font-family:Airbnb Cereal App;
     justify-content: space-between;
 }
 .glazing.active {
@@ -488,6 +489,7 @@ ul {
     border-radius: 10px;
     text-align: center;
     font-size: 20px;
+    font-family:Airbnb Cereal App;
     justify-content: space-between;
 }
 .item_quantity.active {
