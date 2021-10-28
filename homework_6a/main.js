@@ -1,9 +1,6 @@
-// start with empty cart
-//let cart = [];
-
 // set selected glaze + quantity
-const glazeSelect = document.querySelectorAll(".glazing");
-const quantitySelect = document.querySelectorAll(".item_quantity");
+var glazeSelect = document.querySelectorAll(".glazing");
+var quantitySelect = document.querySelectorAll(".item_quantity");
 
 // changes background of selected glaze
 function glazeActive() {
@@ -13,7 +10,7 @@ function glazeActive() {
 
 // changes background of selected quantity
 function quantityActive() {
-    quantitySelect.forEach(item_quantity => quantity.classList.remove("active"));
+    quantitySelect.forEach(item_quantity => item_quantity.classList.remove("active"));
     this.classList.add("active");
 }
 
@@ -32,4 +29,43 @@ var order = function(bun, glazing, item_quantity, price) {
         this.price = quantityChosen.dataset.price;
     }
     
+let cart = [];
+
+function addOrder(bun, glazing, item_quantity, price) {
+    var item = new order(bun, glazing, item_quantity, price);
+    cart.push(item);
+}    
+
+let overallCart = document.querySelectorAll('.add_to_cart_button');
+
+for(let i=0; i < overallCart.length; i++) {
+    overallCart[i].addEventListener("click", ()=> {
+        cartNum();
+    })
+}
+    
+function cartNum() {
+    let itemNum = localStorage.getItem("cartNum");
+    itemNum = parseInt(itemNum);
+    
+    if(itemNum) {
+        localStorage.setOrder("cartNum", itemNum+1);
+        document.querySelector(".cartItems").textContent = itemNum+1;
+    }
+    else {
+        localStorage.setOrder("cartNum", 1);
+        document.querySelector(".cartItems").textContent = 1;
+    }
+}
+
+let cartButton = document.querySelector('.add_to_cart_button');
+
+if(cartButton) {
+    cartButton.addEventListener('click',() => {
+        addOrder();
+        alert("product added!");
+        //totalCost();
+    })
+}
+
 }
