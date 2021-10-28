@@ -558,6 +558,7 @@ ul {
 	text-align:left;
 	font-size:45px;
 }
+/*-----ITEM ADDED TO CART INFO-----*/
 .item_title {
     color:#000000;
 	width:180px;
@@ -568,7 +569,6 @@ ul {
 	font-family:Airbnb Cereal App;
 	text-align:left;
 	font-size:30px;
-	letter-spacing:2;
 }
 .item_price {
     color:#000000;
@@ -580,7 +580,6 @@ ul {
 	font-family:Airbnb Cereal App;
 	text-align:left;
 	font-size:30px;
-	letter-spacing:2;
 }
 .item_glaze {
     color:#808080;
@@ -592,7 +591,6 @@ ul {
 	font-family:Airbnb Cereal App;
 	text-align:left;
 	font-size:25px;
-	letter-spacing:2;
 }
 .item_edit {
     color:#FF9330;
@@ -604,9 +602,9 @@ ul {
 	font-family:Airbnb Cereal App;
 	text-align:left;
 	font-size:22px;
-	letter-spacing:2;
     text-decoration: underline;
 }
+/*-----ADDED ITEM BUN IMG-----*/
 .original_bun_cart_box {
     border:2px solid #808080;
     width:200px;
@@ -629,6 +627,7 @@ ul {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+/*-----CURRENT QUANTITY-----*/
 .edit_quantity {
     border:2px solid #808080;
     width:87px;
@@ -648,6 +647,7 @@ ul {
 	text-align:left;
 	font-size:30px;
 }
+/*-----EDIT QUANTITY (SUBTRACT)-----*/
 .subtract_quantity {
     border:2px solid #808080;
     width:41px;
@@ -667,6 +667,7 @@ ul {
 	text-align:left;
 	font-size:30px;
 }
+/*-----EDIT QUANTITY (ADD)-----*/
 .add_quantity {
     border:2px solid #808080;
     width:41px;
@@ -686,6 +687,7 @@ ul {
 	text-align:left;
 	font-size:30px;
 }
+/*DELETE ITEM*/
 .delete {
     width:40px;
 	height:40px;
@@ -696,6 +698,7 @@ ul {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+/*-----SUBTOTAL BOX-----*/
 .subtotal_box {
     border:2px solid #808080;
     width:370px;
@@ -727,6 +730,7 @@ ul {
 	font-size:80px;
     font-weight: 500;
 }
+/*CONTINUE SHOPPING*/
 .subtotal_go_back {
     color:#FF9330;
 	width:206px;
@@ -739,6 +743,7 @@ ul {
 	font-size:22px;
 	text-decoration: underline;
 }
+/*-----CHECKOUT BUTTON-----*/
 .checkout_button {
     background-color:#FFD6B0;
 	width:291px;
@@ -757,5 +762,4 @@ ul {
 	font-family:Airbnb Cereal App;
 	text-align:center;
 	font-size:25px;
-	letter-spacing:2;
 }
