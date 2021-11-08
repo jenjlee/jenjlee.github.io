@@ -1,0 +1,715 @@
+/*------------HOME PAGE------------*/
+.home { 
+	background-color:#FFFFFF;
+	width:1440px;
+	height:900px;
+	position:absolute;
+    overflow: hidden;
+}
+.bunbun {
+    width:125px;
+	height:143px;
+	position:absolute;
+	left:45px;
+	top:15px;
+}
+/*LOGO*/
+.bunbun img {
+	width:117px;
+	height:117px;
+	position:absolute;
+	left:1px;
+	top:-10px;
+	background-image:url(images/image_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/*LOGO TITLE*/
+.bunbun h2 {
+	color:#000000;
+	width:125px;
+	height:42px;
+	position:absolute;
+	left:0px;
+	top:65px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:32px;
+	letter-spacing:2px;
+}
+
+/*-----LINKS-----*/
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+}
+
+/*-----NAV BAR-----*/
+ul {
+    list-style: none;
+}
+/*UNDER ORDER*/
+.nav_line {
+    background-color:#FF9330;
+	width:87px;
+	height:6px;
+	position:absolute;
+	left:1002px;
+	top:120px;
+}
+.about {
+    position: absolute;
+    width: 93px;
+    height: 44px;
+    left: 806px;
+    top: 50px;
+    font-family: Airbnb Cereal App;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.order {
+    position: absolute;
+    width: 86px;
+    height: 44px;
+    left: 949px;
+    top: 50px;
+    font-family: Airbnb Cereal App;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.contact {
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    left: 1085px;
+    top: 50px;
+    font-family: Airbnb Cereal App;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.cart {
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    left: 1255px;
+    top: 50px;
+    font-family: Airbnb Cereal App;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+/*-----HOME PAGE BODY-----*/
+.home_title { 
+	color: #000000;
+	width:370px;
+	height:94px;
+	position:relative;
+	left:112px;
+	top:258px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:45px;
+    font-weight: 400;
+	letter-spacing:2px;
+}
+.home_heading {
+	color:#000000;
+	width:608px;
+	height:132px;
+	position:absolute;
+	left:109px;
+	top:486px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:30px;
+}
+/*-----ORDER NOW BUTTON-----*/
+.order_button {
+	width:358px;
+	height:79px;
+	position:absolute;
+	left:109px;
+	top:668px;
+}
+.button {
+    background-color:#FF9330;
+	width:358px;
+	height:79px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.order_now {
+	color:#FFFFFF;
+	width:186px;
+	height:46px;
+	position:absolute;
+	left:86px;
+	top:17px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:35px;
+}
+/*PHOTO OF BUN ON HOME PAGE*/
+.bun_photo {
+    width:518px;
+	height:363px;
+	position:absolute;
+	left:813px;
+	top:337px;
+	background-image:url(images/image_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+/*------------ORDER PAGE------------*/
+.products h2 {
+    color:#000000;
+	width:144px;
+	height:65px;
+	position:absolute;
+	left:96px;
+	top:190px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:45px;
+}
+
+/*-----BOXES FOR ITEMS-----*/
+.box1 {
+    background-color:#FFFFFF;
+	width:394px;
+	height:475px;
+	position:absolute;
+	left:96px;
+	top:325px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:3px solid #808080;
+}
+.box2 {
+	background-color:#FFFFFF;
+	width:394px;
+	height:475px;
+	position:absolute;
+	left:523px;
+	top:325px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:3px solid #808080;
+}
+.box3 {
+	background-color:#FFFFFF;
+	width:394px;
+	height:475px;
+	position:absolute;
+	left:950px;
+	top:325px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:3px solid #808080;
+}
+.box4 {
+	background-color:#FFFFFF;
+	width:394px;
+	height:475px;
+	position:absolute;
+	left:96px;
+	top:850px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:3px solid #808080;
+}
+.box5 {
+	background-color:#FFFFFF;
+	width:394px;
+	height:475px;
+	position:absolute;
+	left:523px;
+	top:850px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:3px solid #808080;
+}
+.box6 {
+    background-color:#FFFFFF;
+	width:394px;
+	height:475px;
+	position:absolute;
+	left:950px;
+	top:850px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:3px solid #808080;
+}
+
+/*TITLES FOR ITEMS*/
+.original, .blackberry, .walnut, .gluten_free, .pumpkin_spice, .caramel_pecan {
+	color:#000000;
+	width:250px;
+	height:39px;
+	position:absolute;
+	left:40px;
+	top:274px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:30px;
+}
+
+/*PRICE FOR ITEMS*/
+.price1, .price2, .price3, .price4, .price5, .price6 {
+    width:36px;
+	height:39px;
+	position:absolute;
+	left:318px;
+	top:274px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:30px;
+}
+
+/*DESCRIPTION FOR ITEMS*/
+.description1, .description2, .description3, .description4, .description5, .description6 {
+	color:#000000;
+	width:314px;
+	height:112px;
+	position:absolute;
+	left:40px;
+	top:333px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:18px;
+}
+
+/*-----IMAGE FOR ITEMS-----*/
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img {
+    width:243px;
+	height:194px;
+	position:absolute;
+	left:75px;
+	top:40px;
+	background-image:url(images/image_4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box2 img:last-child {
+    width:145px;
+	height:120px;
+	position:absolute;
+	left:230px;
+	top:140px;
+	background-image:url(images/image_5.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box3 img:last-child {
+	width:112px;
+	height:105px;
+	position:absolute;
+	left:245px;
+	top:140px;
+	background-image:url(images/image_6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box4 img:last-child {
+    width:87px;
+	height:87px;
+	position:absolute;
+	left:245px;
+	top:140px;
+	background-image:url(images/image_12.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box5 img:last-child {
+    width:151px;
+	height:100px;
+	position:absolute;
+	left:230px;
+	top:140px;
+	background-image:url(images/image_12.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.box6 img:last-child {
+    width:161px;
+	height:161px;
+	position:absolute;
+	left:210px;
+	top:115px;
+	background-image:url(images/image_12.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*------------ORIGINAL BUN PAGE------------*/
+.original_bun h2 {
+    color:#000000;
+	width:300px;
+	height:78px;
+	position:absolute;
+	left:800px;
+	top:260px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:50px;
+}
+.add_cart h2 {
+    color:#000000;
+	width:300px;
+	height:78px;
+	position:absolute;
+	left:1026px;
+	top:260px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:50px;
+}
+/*ORIGINAL BUN PHOTO*/
+.original_bun img {
+	width:409px;
+	height:325px;
+	position:absolute;
+	left:170px;
+	top:330px;
+	background-image:url(images/image_4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*-----BACK BUTTON-----*/
+.back {
+	width:180px;
+	height:44px;
+	position:absolute;
+	left:45px;
+	top:195px;
+}
+.go_back {
+	color:#000000;
+	width:121px;
+	height:39px;
+	position:absolute;
+	left:59px;
+	top:3px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:30px;  
+}
+.back img {
+    width:44px;
+	height:44px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/image_10.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*-----GLAZE-----*/
+
+.glazing_label {
+	color:#000000;
+	width:103px;
+	height:37px;
+	position:absolute;
+	left:800px;
+	top:395px;
+	font-family:Airbnb Cereal App;
+    font-weight: 500;
+	text-align:left;
+	font-size:28px;
+}
+.glazing {
+	background: #FFFFFF;
+	border: 2px solid #000000;
+    padding: 5px 15px;
+	border-radius: 5px;
+	position: absolute;
+	cursor: pointer;
+	text-align-last: left;
+    font-family:Airbnb Cereal App;
+    top:445px;
+    left:800px;
+}
+.glazing select {
+    width: 220px;
+	font-family: Airbnb Cereal App;
+	background: transparent;
+	border: none;
+	padding: 5px;
+	border-radius: 0;
+	position: relative;
+	font-size: 20px;
+    color: #000000;
+	cursor: pointer;
+	text-align-last: left;
+}
+
+
+/*-----QUANTITY-----*/
+.quantity_label {
+	color:#000000;
+	width:121px;
+	height:37px;
+	position:absolute;
+	left:800px;
+	top:540px;
+	font-family:Airbnb Cereal App;
+    font-weight: 500;
+	text-align:left;
+	font-size:28px;
+}
+.item_quantity {
+	background: #FFFFFF;
+	border: 2px solid #000000;
+    padding: 5px 15px;
+	border-radius: 5px;
+	position: absolute;
+	cursor: pointer;
+	text-align-last: left;
+    font-family:Airbnb Cereal App;
+    top:590px;
+    left:800px;
+}
+.item_quantity select {
+    width: 220px;
+	font-family: Airbnb Cereal App;
+	background: transparent;
+	border: none;
+	padding: 5px;
+	border-radius: 0;
+	position: relative;
+	font-size: 20px;
+    color: #000000;
+	cursor: pointer;
+	text-align-last: left;
+}
+
+
+/*-----INGREDIENTS INFO-----*/
+.ingredients_title {
+    color:#000000;
+	width:140px;
+	height:37px;
+	position:absolute;
+	left:205px;
+	top:720px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:25px;
+    font-weight: 500;
+}
+.ingredients_description {
+    color:#000000;
+	width:465px;
+	height:108px;
+	position:absolute;
+	left:205px;
+	top:765px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:22px;
+}
+
+/*-----ADD TO CART BUTTON-----*/
+.add_to_cart {
+	color:#000000;
+    padding: 5px 15px;
+	position:absolute;
+	left:780px;
+	top:700px;
+	font-family:Airbnb Cereal App;
+	text-align:center;
+	font-size:22px;  
+}
+input[type=button] {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 20px;
+    font-family:Airbnb Cereal App;
+    padding: 5px 15px;
+	border-radius: 5px;
+    left:780px;
+	top:700px;
+    font-weight: 500;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color:#FFD6B0;
+}
+
+/*------------SHOPPING CART PAGE------------*/
+.s_cart h2 {
+    color:#000000;
+	width:350px;
+	height:65px;
+	position:absolute;
+	left:96px;
+	top:190px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:45px;
+}
+.cart_items {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 4fr 1fr;
+    grid-column-gap: 45px;
+}
+.list_items {
+    grid-area:left;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-row-gap: 45px
+}
+.item1 {
+    display: grid;
+    grid-template-areas: 
+    "a b b b b" 
+    "a c d e f";
+    grid-template-columns: 115px repeat(4, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 3px;
+    padding: 15px;
+    border: 2px solid #000000; 
+    border-radius: 5px;
+    height: 150px;
+    font-family:Airbnb Cereal App;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 45px;
+}
+/*-----ITEM ADDED TO CART INFO-----*/
+#item_description {
+    grid-area: b;
+}
+#item_description h3 {
+    margin: 0;
+}
+
+/*-----ADDED ITEM BUN IMG-----*/
+.item1 a {
+    grid-area: a;
+}
+.item1 img {
+    width: 171px;
+    height: 136px;
+    background-image:url(images/image_4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*DELETE ITEM*/
+#item_description img {
+    float: right;
+    width: 40px;
+    margin: 0;
+    cursor: pointer;
+    background-image:url(images/x.png);
+}
+
+/*-----SUBTOTAL BOX-----*/
+.subtotal_box {
+    border:2px solid #808080;
+    width:370px;
+	height:361px;
+	position:absolute;
+	left:1005px;
+	top:325px;
+}
+.subtotal_title {
+    color:#000000;
+	width:182px;
+	height:44px;
+	position:absolute;
+	left:94px;
+	top:29px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:25px;
+}
+.subtotal_price {
+    color:#000000;
+	width:132px;
+	height:44px;
+	position:absolute;
+	left:110px;
+	top:75px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:80px;
+    font-weight: 500;
+}
+/*CONTINUE SHOPPING*/
+.subtotal_go_back {
+    color:#FF9330;
+	width:206px;
+	height:29px;
+	position:absolute;
+	left:87px;
+	top:297px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:22px;
+	text-decoration: underline;
+}
+/*-----CHECKOUT BUTTON-----*/
+.checkout_button {
+    background-color:#FFD6B0;
+	width:291px;
+	height:66px;
+	position:absolute;
+	left:1044px;
+	top:533px;
+}
+.check_out {
+    color:#000000;
+	width:136px;
+	height:30px;
+	position:absolute;
+	left:77px;
+	top:18px;
+	font-family:Airbnb Cereal App;
+	text-align:center;
+	font-size:25px;
+}
