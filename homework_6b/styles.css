@@ -590,62 +590,97 @@ input[type=button]:hover {
 	text-align:left;
 	font-size:45px;
 }
-.cart_items {
-    display: grid;
-    grid-template-areas: "left right";
-    grid-template-columns: 4fr 1fr;
-    grid-column-gap: 45px;
-}
-.list_items {
-    grid-area:left;
-    display: grid;
-    grid-auto-rows: auto;
-    grid-row-gap: 45px
-}
-.item1 {
-    display: grid;
-    grid-template-areas: 
-    "a b b b b" 
-    "a c d e f";
-    grid-template-columns: 115px repeat(4, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 3px;
-    padding: 15px;
-    border: 2px solid #000000; 
-    border-radius: 5px;
-    height: 150px;
-    font-family:Airbnb Cereal App;
-    font-size: 20px;
-    font-weight: 400px;
-    margin-bottom: 45px;
-}
-/*-----ITEM ADDED TO CART INFO-----*/
-#item_description {
-    grid-area: b;
-}
-#item_description h3 {
-    margin: 0;
+#cart_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 10px;
 }
 
-/*-----ADDED ITEM BUN IMG-----*/
-.item1 a {
-    grid-area: a;
+/*-----ITEM ADDED TO CART INFO-----*/
+#scart_items h3 {
+    color:#000000;
+	width:180px;
+	height:37px;
+	position:absolute;
+	left:338px;
+	top:310px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:30px;
 }
-.item1 img {
-    width: 171px;
-    height: 136px;
-    background-image:url(images/image_4.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+#glazeOption {
+    color:#808080;
+	width:206px;
+	height:28px;
+	position:absolute;
+	left:338px;
+	top:360px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:25px;
+}
+#bunQuantityCount {
+    color:#808080;
+	width:206px;
+	height:28px;
+	position:absolute;
+	left:338px;
+	top:395px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:25px;  
+}
+#bunPrice {
+    color:#000000;
+	width:96px;
+	height:37px;
+	position:absolute;
+	left:726px;
+	top:310px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:30px;
+    font-weight: 500;
+}
+#bunEdit {
+    color:#FF9330;
+	width:43px;
+	height:29px;
+	position:absolute;
+	left:338px;
+	top:437px;
+	font-family:Airbnb Cereal App;
+	text-align:left;
+	font-size:22px;
+    text-decoration: underline;
+}
+
+
+/*-----ADDED ITEM BUN IMG-----*/
+.original_bun_cart_box {
+    border:2px solid #808080;
+    width:200px;
+	height:165px;
+	position:absolute;
+	left:96px;
+	top:335px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
 }
 
 /*DELETE ITEM*/
-#item_description img {
-    float: right;
-    width: 40px;
-    margin: 0;
-    cursor: pointer;
-    background-image:url(images/x.png);
+.delete_item {
+    width:40px;
+	height:40px;
+	position:absolute;
+	left:850px;
+	top:340px;
+	background-image:url(images/x.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 /*-----SUBTOTAL BOX-----*/
