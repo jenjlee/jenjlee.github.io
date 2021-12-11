@@ -1,1 +1,115 @@
-Hello World
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Jennifer's Portfolio</title>
+
+    <!-- Load Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">  
+
+    <!-- JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script src="assets/js/main.js"></script>
+      
+  </head>
+
+  <body>
+    <div id="page-container">
+      <div id="content-wrap">
+
+        <!-- NavBar -->
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-12 small-top-margin">
+            <nav class="navbar navbar-expand-sm navbar-light bg-white">
+              <div class="container-fluid container-lr-padded" id="navbar-container">
+                <a class="navbar-brand" href="index.html">
+                    <div id="navbar-title">JENNIFER LEE</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Work</a>
+                    <a class="nav-link" href="about.html">About Me</a> <a class="nav-link" href="play.html">Play</a>
+                    <a class="nav-link" href="assets/JenniferLeeResume.pdf" target="_blank">Resume</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-2"></div>
+        </div>
+        
+        <!-- Main Content -->
+
+        <!-- Project Grid -->
+        <div class="container-fluid container-lr-padded main-content big-bottom-margin">
+          
+          <div class="row justify-content-center bigger-top-margin biggest-bottom-margin">
+            <div class="col-lg-8">
+              <img src="assets/imgs/Jennifer_Animoji.png" alt="Jennifer's emoticon" class="animoji"/> 
+              <h3 class="tagline">Hello, I'm Jennifer! I am <span id="changing-header" class="blink"></span></h3>
+              <h4 class="subtagline">Currently a Master's student at Carnegie Mellon University pursuing <a href= "https://www.hcii.cmu.edu/academics/mhci" target="_blank">Human Computer Interaction</a>.</h4>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2"></div>
+            <a href="#projects" class="view-projects-button"><p style = "text-align: center;">View Projects<br>↓</p></a>
+          </div>
+
+          <!-- Row 1 -->
+          <a id="projects"></a>
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <a type="image" href="hatch.html">
+                <img class="project-card-img" src="assets/imgs/Hatch_Project_Splash_Photo.png" onmouseover="this.src='assets/imgs/Hatch_Hover_Photo.png';" onmouseout="this.src='assets/imgs/Hatch_Project_Splash_Photo.png';"/>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a type="image" href="spin.html">
+                <img class="project-card-img" src="assets/imgs/Spin_Splash_Photo.png" onmouseover="this.src='assets/imgs/Spin_Hover_Photo.png';" onmouseout="this.src='assets/imgs/Spin_Splash_Photo.png';"/>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a type="image" href="negotium.html">
+                <img class="project-card-img" src="assets/imgs/Negotium_Splash_Photo.png" onmouseover="this.src='assets/imgs/Negotium_Hover_Photo.png';" onmouseout="this.src='assets/imgs/Negotium_Splash_Photo.png';"/>
+              </a>
+            </div>  
+          </div>
+            
+          <br>
+
+          <!-- Row 2 -->
+          <div class="row justify-content-center">
+
+            <div class="col-lg-4">
+              <a type="image" href="togobox.html">
+                <img class="project-card-img" src="assets/imgs/ToGoBOX_Splash_Photo.png" onmouseover="this.src='assets/imgs/ToGoBOX_Hover_Photo.png';" onmouseout="this.src='assets/imgs/ToGoBOX_Splash_Photo.png';"/>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a type="image" href="picso_lab.html">
+                <img class="project-card-img" src="assets/imgs/PICSO_Lab_Splash_Photo.png" onmouseover="this.src='assets/imgs/PICSO_Lab_Hover_Photo.png';" onmouseout="this.src='assets/imgs/PICSO_Lab_Splash_Photo.png';"/>
+              </a>
+            </div>
+            <div class="col-lg-4">
+              <a type="image" href="atlantis_hub.html">
+                <img class="project-card-img" src="assets/imgs/AtlantisHub_Project_Splash_Photo.png" onmouseover="this.src='assets/imgs/AtlantisHub_Hover_Photo.png';" onmouseout="this.src='assets/imgs/AtlantisHub_Project_Splash_Photo.png';"/>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="container-fluid" id="footer">
+        Made with ❤️ + ☕️ by Jennifer
+      </footer>
+    </div> 
+  </body>
+</html>
